@@ -1,0 +1,14 @@
+
+/*上部右侧面包屑导航的样式*/
+/*背景*/
+.breadcrumb{
+   background-color: #f5f5f5;
+}
+/*修改连接符号*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+/*修改主导航样式*/
+ul.nav>li.nav-item>a:hover{
+    cursor: pointer;
+}

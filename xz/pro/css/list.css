@@ -1,0 +1,15 @@
+.my_gray{
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+
+.my_input_width{
+    width:10%;
+    border:0;outline:0;
+}
+.pagination>.page-item{
+    margin-left:2px;
+    margin-right:2px;
+}
+.pagination>.page-item>a{
+    border-radius:0.25rem;
+}
